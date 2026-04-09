@@ -1,0 +1,41 @@
+node_modules/
+
+# Environment files
+.env
+.env.*
+
+# Build output
+dist/
+build/
+.next/
+web-build/
+
+# Expo artifacts
+.expo/
+.expo-shared/
+
+# Logs and temp files
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+tmp/
+temp/
+
+# Coverage and cache
+coverage/
+.cache/
+.parcel-cache/
+
+# OS / Editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Runtime/package artifacts
+*.pid
+*.seed
+*.tgz
+*.gz

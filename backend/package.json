@@ -1,0 +1,31 @@
+{
+    "name": "personax-backend",
+    "version": "0.1.0",
+    "private": true,
+    "type": "module",
+    "main": "server.js",
+    "scripts": {
+        "dev": "nodemon --watch server.js --watch .env --watch routes --watch controllers --watch services --watch ai --watch utils --watch sockets server.js",
+        "start": "node server.js",
+        "dev:mobile": "npm run start --prefix ../mobile"
+    },
+    "dependencies": {
+        "@google/generative-ai": "^0.12.0",
+        "bcryptjs": "^2.4.3",
+        "cors": "^2.8.5",
+        "dotenv": "^16.4.5",
+        "express": "^4.19.2",
+        "helmet": "^7.1.0",
+        "jsonwebtoken": "^9.0.2",
+        "mongodb": "^6.20.0",
+        "mongoose": "^8.5.3",
+        "morgan": "^1.10.0",
+        "multer": "^2.1.1",
+        "openai": "^4.56.0",
+        "socket.io": "^4.7.5",
+        "zod": "^3.23.8"
+    },
+    "devDependencies": {
+        "nodemon": "^3.1.4"
+    }
+}
