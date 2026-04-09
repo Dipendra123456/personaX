@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="560" viewBox="0 0 960 560" fill="none">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="960" y2="560" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0f172a"/>
+      <stop offset="1" stop-color="#1e293b"/>
+    </linearGradient>
+  </defs>
+  <rect width="960" height="560" fill="url(#bg)"/>
+  <g opacity="0.35">
+    <rect x="140" y="90" width="340" height="340" fill="#f1f5f9"/>
+    <rect x="480" y="90" width="340" height="340" fill="#1d4ed8"/>
+  </g>
+  <g fill="#f8fafc">
+    <text x="116" y="500" font-family="Segoe UI, Arial" font-size="54" font-weight="700">CHESS</text>
+    <text x="116" y="545" font-family="Segoe UI, Arial" font-size="24">Companion duel mode</text>
+  </g>
+  <text x="660" y="280" font-family="Segoe UI Symbol, Segoe UI" font-size="170" fill="#f8fafc">♞</text>
+</svg>

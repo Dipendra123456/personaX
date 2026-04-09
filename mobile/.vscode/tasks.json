@@ -1,0 +1,16 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "start-mobile-expo-restore",
+			"type": "shell",
+			"command": "npm",
+			"args": [
+				"start",
+				"--",
+				"--clear"
+			],
+			"isBackground": true
+		}
+	]
+}

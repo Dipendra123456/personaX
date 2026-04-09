@@ -1,0 +1,136 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+    --bg: #0f1113;
+    --panel: #1b1d20;
+    --panel-soft: #23262a;
+    --ink: #edf7ee;
+    --ink-soft: #b5c2b9;
+    --line: #2f3338;
+    --accent: #b6ff4d;
+    --accent-2: #7adf7a;
+    --accent-red: #ff4d4f;
+    --accent-green: #2be36a;
+    --accent-blue: #48a7ff;
+    --accent-orange: #ff9f2f;
+}
+
+html,
+body,
+#__next {
+    margin: 0;
+    min-height: 100%;
+    font-family: "Segoe UI", "Trebuchet MS", sans-serif;
+    background:
+        radial-gradient(circle at 12% 12%, rgba(182, 255, 77, 0.08), transparent 24%),
+        radial-gradient(circle at 85% 8%, rgba(122, 223, 122, 0.08), transparent 18%),
+        linear-gradient(180deg, #131517 0%, var(--bg) 100%);
+    color: var(--ink);
+}
+
+.personax-card {
+    background: var(--panel);
+    border: 1px solid var(--line);
+    border-radius: 18px;
+    box-shadow: 0 12px 34px rgba(0, 0, 0, 0.28);
+}
+
+.personax-card-soft {
+    background: var(--panel-soft);
+    border: 1px solid var(--line);
+    border-radius: 18px;
+    box-shadow: 0 12px 34px rgba(0, 0, 0, 0.18);
+}
+
+input,
+textarea,
+select {
+    background: #14171a;
+    color: var(--ink);
+}
+
+::placeholder {
+    color: #7d8a80;
+}
+
+button {
+    transition: transform 0.12s ease, background-color 0.12s ease, border-color 0.12s ease;
+}
+
+button:hover {
+    transform: translateY(-1px);
+}
+
+.personax-accent {
+    color: var(--accent);
+}
+
+.personax-border-accent {
+    border-color: var(--accent);
+}
+
+.personax-accent-red {
+    color: var(--accent-red);
+}
+
+.personax-accent-green {
+    color: var(--accent-green);
+}
+
+.personax-accent-blue {
+    color: var(--accent-blue);
+}
+
+.personax-accent-orange {
+    color: var(--accent-orange);
+}
+
+.personax-glow-red {
+    box-shadow: 0 0 0 1px rgba(255, 77, 79, 0.14), 0 0 24px rgba(255, 77, 79, 0.16);
+}
+
+.personax-glow-green {
+    box-shadow: 0 0 0 1px rgba(43, 227, 106, 0.14), 0 0 24px rgba(43, 227, 106, 0.16);
+}
+
+.personax-glow-blue {
+    box-shadow: 0 0 0 1px rgba(72, 167, 255, 0.14), 0 0 24px rgba(72, 167, 255, 0.16);
+}
+
+.personax-glow-orange {
+    box-shadow: 0 0 0 1px rgba(255, 159, 47, 0.14), 0 0 24px rgba(255, 159, 47, 0.16);
+}
+
+.personax-border-red {
+    border-color: var(--accent-red);
+}
+
+.personax-border-green {
+    border-color: var(--accent-green);
+}
+
+.personax-border-blue {
+    border-color: var(--accent-blue);
+}
+
+.personax-border-orange {
+    border-color: var(--accent-orange);
+}
+
+.personax-bg-red {
+    background: linear-gradient(135deg, rgba(255, 77, 79, 0.18), rgba(255, 77, 79, 0.04));
+}
+
+.personax-bg-green {
+    background: linear-gradient(135deg, rgba(43, 227, 106, 0.18), rgba(43, 227, 106, 0.04));
+}
+
+.personax-bg-blue {
+    background: linear-gradient(135deg, rgba(72, 167, 255, 0.18), rgba(72, 167, 255, 0.04));
+}
+
+.personax-bg-orange {
+    background: linear-gradient(135deg, rgba(255, 159, 47, 0.18), rgba(255, 159, 47, 0.04));
+}

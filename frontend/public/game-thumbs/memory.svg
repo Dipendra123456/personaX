@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="560" viewBox="0 0 960 560" fill="none">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="960" y2="560" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#4c0519"/>
+      <stop offset="1" stop-color="#7f1d1d"/>
+    </linearGradient>
+  </defs>
+  <rect width="960" height="560" fill="url(#bg)"/>
+  <g>
+    <rect x="170" y="95" width="130" height="170" rx="18" fill="#fecaca"/>
+    <rect x="320" y="95" width="130" height="170" rx="18" fill="#fca5a5"/>
+    <rect x="470" y="95" width="130" height="170" rx="18" fill="#fecaca"/>
+    <rect x="170" y="285" width="130" height="170" rx="18" fill="#fca5a5"/>
+    <rect x="320" y="285" width="130" height="170" rx="18" fill="#fecaca"/>
+    <rect x="470" y="285" width="130" height="170" rx="18" fill="#fca5a5"/>
+  </g>
+  <text x="650" y="240" font-family="Segoe UI, Arial" font-size="100" font-weight="800" fill="#fee2e2">2x</text>
+  <text x="116" y="500" font-family="Segoe UI, Arial" font-size="54" font-weight="700" fill="#fee2e2">MEMORY MATCH</text>
+  <text x="116" y="545" font-family="Segoe UI, Arial" font-size="24" fill="#fee2e2">Speed and recall challenge</text>
+</svg>

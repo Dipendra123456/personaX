@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="560" viewBox="0 0 960 560" fill="none">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="960" y2="560" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#3f0f46"/>
+      <stop offset="1" stop-color="#1f1147"/>
+    </linearGradient>
+  </defs>
+  <rect width="960" height="560" fill="url(#bg)"/>
+  <rect x="170" y="80" width="360" height="360" rx="20" fill="#14532d"/>
+  <g stroke="#86efac" stroke-width="2" opacity="0.55">
+    <line x1="215" y1="80" x2="215" y2="440"/>
+    <line x1="260" y1="80" x2="260" y2="440"/>
+    <line x1="305" y1="80" x2="305" y2="440"/>
+    <line x1="350" y1="80" x2="350" y2="440"/>
+    <line x1="395" y1="80" x2="395" y2="440"/>
+    <line x1="440" y1="80" x2="440" y2="440"/>
+    <line x1="485" y1="80" x2="485" y2="440"/>
+    <line x1="170" y1="125" x2="530" y2="125"/>
+    <line x1="170" y1="170" x2="530" y2="170"/>
+    <line x1="170" y1="215" x2="530" y2="215"/>
+    <line x1="170" y1="260" x2="530" y2="260"/>
+    <line x1="170" y1="305" x2="530" y2="305"/>
+    <line x1="170" y1="350" x2="530" y2="350"/>
+    <line x1="170" y1="395" x2="530" y2="395"/>
+  </g>
+  <circle cx="640" cy="200" r="70" fill="#f8fafc"/>
+  <circle cx="760" cy="280" r="70" fill="#111827"/>
+  <text x="118" y="500" font-family="Segoe UI, Arial" font-size="54" font-weight="700" fill="#e9d5ff">OTHELLO</text>
+  <text x="118" y="545" font-family="Segoe UI, Arial" font-size="24" fill="#e9d5ff">Flip the board momentum</text>
+</svg>

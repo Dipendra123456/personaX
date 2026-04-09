@@ -1,0 +1,19 @@
+{
+    "expo": {
+        "name": "PersonaX",
+        "slug": "personax-mobile",
+        "version": "1.0.0",
+        "orientation": "portrait",
+        "userInterfaceStyle": "dark",
+        "splash": {
+            "resizeMode": "contain",
+            "backgroundColor": "#0b1110"
+        },
+        "assetBundlePatterns": [
+            "**/*"
+        ],
+        "android": {
+            "package": "com.personax.mobile"
+        }
+    }
+}
