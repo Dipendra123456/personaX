@@ -17,10 +17,10 @@ const resolveApiBase = () => {
     }
 
     if (Platform.OS === "android") {
-        return "http://10.0.2.2:5000/api";
+        return "https://personax-2-9aan.onrender.com/api";
     }
 
-    return "http://localhost:5000/api";
+    return "https://personax-2-9aan.onrender.com/api";
 };
 
 const API_BASE = resolveApiBase();

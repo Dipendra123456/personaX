@@ -21,8 +21,8 @@ import CompanionMakerModal from "./CompanionMakerModal";
 const COMPANIONS_CACHE_KEY = "personax-mobile-companions-cache";
 const getCompanionsCacheKey = (userId) => `${COMPANIONS_CACHE_KEY}:${userId || "guest"}`;
 const LOCAL_FALLBACK_COMPANIONS = [
-    { _id: "local-quick-1", name: "Dipendra", avatar: "🧑", isAutoCompanion: true },
-    { _id: "local-quick-2", name: "Mia Khalifa", avatar: "👩", isAutoCompanion: true }
+    { _id: "local-quick-1", name: "Sam", avatar: "🧑", isAutoCompanion: true },
+    { _id: "local-quick-2", name: "Eva", avatar: "👩", isAutoCompanion: true }
 ];
 
 

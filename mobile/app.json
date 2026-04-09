@@ -1,19 +1,24 @@
 {
-    "expo": {
-        "name": "PersonaX",
-        "slug": "personax-mobile",
-        "version": "1.0.0",
-        "orientation": "portrait",
-        "userInterfaceStyle": "dark",
-        "splash": {
-            "resizeMode": "contain",
-            "backgroundColor": "#0b1110"
-        },
-        "assetBundlePatterns": [
-            "**/*"
-        ],
-        "android": {
-            "package": "com.personax.mobile"
-        }
+  "expo": {
+    "name": "PersonaX",
+    "slug": "personax-mobile",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "dark",
+    "splash": {
+      "resizeMode": "contain",
+      "backgroundColor": "#0b1110"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "android": {
+      "package": "com.personax.mobile"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "54056312-f576-4aa4-b630-9e8923160665"
+      }
     }
+  }
 }

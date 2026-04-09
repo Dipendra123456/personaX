@@ -25,7 +25,8 @@ const toPublicUser = (user) => ({
 
 const DEFAULT_QUICK_COMPANIONS = [
     {
-        name: "Dipendra",
+        name: "Sam",
+        legacyNames: ["Dipendra"],
         gender: "male",
         relationshipType: "auto",
         tone: "auto",
@@ -42,7 +43,8 @@ const DEFAULT_QUICK_COMPANIONS = [
         }
     },
     {
-        name: "Mia Khalifa",
+        name: "Eva",
+        legacyNames: ["Mia Khalifa"],
         gender: "female",
         relationshipType: "auto",
         tone: "auto",
@@ -62,10 +64,11 @@ const DEFAULT_QUICK_COMPANIONS = [
 
 const ensureDefaultQuickCompanions = async (userId) => {
     for (const preset of DEFAULT_QUICK_COMPANIONS) {
+        const namesToMatch = [...new Set([preset.name, ...(preset.legacyNames || [])])];
         const matches = await Companion.find({
             userId,
             isAutoCompanion: true,
-            name: preset.name,
+            name: { $in: namesToMatch },
             gender: preset.gender
         }).sort({ createdAt: 1 });
 
@@ -79,6 +82,7 @@ const ensureDefaultQuickCompanions = async (userId) => {
             { _id: keeper._id, userId },
             {
                 $set: {
+                    name: preset.name,
                     relationshipType: "auto",
                     tone: "auto",
                     isAutoCompanion: true
