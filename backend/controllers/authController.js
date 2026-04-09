@@ -26,7 +26,7 @@ const toPublicUser = (user) => ({
 const DEFAULT_QUICK_COMPANIONS = [
     {
         name: "Sam",
-        legacyNames: ["Dipendra"],
+        legacyNames: ["Sam"],
         gender: "male",
         relationshipType: "auto",
         tone: "auto",
@@ -44,7 +44,7 @@ const DEFAULT_QUICK_COMPANIONS = [
     },
     {
         name: "Eva",
-        legacyNames: ["Mia Khalifa"],
+        legacyNames: ["Eva"],
         gender: "female",
         relationshipType: "auto",
         tone: "auto",
